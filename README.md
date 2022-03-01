@@ -1,4 +1,4 @@
-# CSFlow
+# CSFlow: Learning Optical Flow via Cross Strip Correlation for Autonomous Driving
 The implementaions of [CSFlow: Learning Optical Flow via Cross Strip Correlation for Autonomous Driving](https://arxiv.org/pdf/2202.00909.pdf). 
 We achieve state-of-the-art accuracy on KITTI-2015 flow benchmark.
 
