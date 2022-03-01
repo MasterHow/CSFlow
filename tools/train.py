@@ -57,8 +57,7 @@ def parse_args():
         default=[384, 512])
     parser.add_argument(
         '--data_root',
-        help='Root of the current training datasets',
-        default='E://Labs//DataSet//FlyingChairs_release//data')
+        help='Root of the current training datasets')
     parser.add_argument(
         '--validation',
         type=str,
@@ -67,16 +66,13 @@ def parse_args():
         choices=['KITTI', 'Sintel', 'Chairs'])
     parser.add_argument(
         '--val_Chairs_root',
-        help='Root of the Chairs validation datasets',
-        default='E://Labs//DataSet//FlyingChairs_release//data')
+        help='Root of the Chairs validation datasets')
     parser.add_argument(
         '--val_Sintel_root',
-        help='Root of the Sintel validation datasets',
-        default='D://DataSet//MPI-Sintel-complete')
+        help='Root of the Sintel validation datasets')
     parser.add_argument(
         '--val_KITTI_root',
-        help='Root of the KITTI validation datasets',
-        default=None)
+        help='Root of the KITTI validation datasets')
     parser.add_argument('--DEVICE', help='The using device', default='cuda')
     parser.add_argument(
         '--lr', type=float, help='Learning rate', default=0.00002)
@@ -94,7 +90,7 @@ def parse_args():
         '--change_gpu',
         help='train on cuda device but not cuda:0',
         action='store_true')
-    parser.add_argument('--gpus', type=int, nargs='+', default=[0, 1])
+    parser.add_argument('--gpus', type=int, nargs='+', default=0)
     parser.add_argument(
         '--iters',
         type=int,

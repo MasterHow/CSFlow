@@ -21,10 +21,11 @@ To train, use the following command format:
 python ./tools/train.py
 --model CSFlow
 --dataset Chairs
+--data_root $YOUR_DATA_PATH$
 --batch_size 1
 --name csflow-test
 --validation Sintel
---gpus 0
+--val_Sintel_root $YOUR_DATA_PATH$
 --num_steps 100
 --lr 0.0004
 --image_size 368 496
