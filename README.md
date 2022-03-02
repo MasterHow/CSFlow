@@ -1,5 +1,5 @@
 # CSFlow: Learning Optical Flow via Cross Strip Correlation for Autonomous Driving
-The implementaions of [CSFlow: Learning Optical Flow via Cross Strip Correlation for Autonomous Driving](https://arxiv.org/pdf/2202.00909.pdf). 
+The implementations of [CSFlow: Learning Optical Flow via Cross Strip Correlation for Autonomous Driving](https://arxiv.org/pdf/2202.00909.pdf). 
 We achieve state-of-the-art accuracy on KITTI-2015 flow benchmark.
 
 ![](results/compare.png)
@@ -47,6 +47,7 @@ For more details, please check the code or refer our [paper](https://arxiv.org/p
 ```
 ├── data (local)            # Store test/training data
 ├── checkpoints (local)     # Store the checkpoints
+├── runs (local)            # Store the training log
 ├── opticalflow             # All source code
 |   ├─ api                  # Called by tools
 |   ├─ core                 # Core code call by other directorys. Provide dataset, models ....
@@ -61,4 +62,4 @@ For more details, please check the code or refer our [paper](https://arxiv.org/p
 Hao Shi，YiFan Zhou
 
 # Need Help?
-If you have any questions, welcome to send me an e-mail: haoshi@zju.edu.cn, and I will try my best to help you. =)
+If you have any questions, welcome to e-mail me: haoshi@zju.edu.cn, and I will try my best to help you. =)
