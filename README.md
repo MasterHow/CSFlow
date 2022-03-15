@@ -11,9 +11,17 @@ python setup.py develop
 
 # Pretrained Model
 The pretrained model that the paper used can be found there:
+
+Download link 1:
 ```
 https://share.weiyun.com/5t6TadPB
 ```
+Download link 2:
+```
+https://pan.baidu.com/s/1Hcj-sm5t0h6lYckOBiWjzA?pwd=6kur
+```
+
+The content in the two links is consistent, if you encounter network problems, you can try switching to the other link.
 
 # Train and Eval
 To train, use the following command format:
