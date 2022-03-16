@@ -12,16 +12,21 @@ python setup.py develop
 # Pretrained Model
 The pretrained model that the paper used can be found there:
 
-Download link 1:
+Download link 1 (Tencent WeiYun):
 ```
 https://share.weiyun.com/5t6TadPB
 ```
-Download link 2:
+Download link 2 (Baidu Cloud):
 ```
 https://pan.baidu.com/s/1Hcj-sm5t0h6lYckOBiWjzA?pwd=6kur
 ```
 
-The content in the two links is consistent, if you encounter network problems, you can try switching to the other link.
+Download link 3 (Google Drive):
+```
+https://drive.google.com/drive/folders/1_Fb4eLfT4bZo3g8hCX5cO28lMsDKuHvE?usp=sharing
+```
+
+The content in the above links are consistent, if you encounter network problems, you can try switching to the other link.
 
 # Train and Eval
 To train, use the following command format:
