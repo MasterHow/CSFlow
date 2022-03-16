@@ -27,6 +27,7 @@ https://drive.google.com/drive/folders/1_Fb4eLfT4bZo3g8hCX5cO28lMsDKuHvE?usp=sha
 ```
 
 The content in the above links are consistent, if you encounter network problems, you can try switching to the other link.
+They can also be found in the [Github Releases tab](https://github.com/MasterHow/CSFlow/releases).
 
 # Train and Eval
 To train, use the following command format:
