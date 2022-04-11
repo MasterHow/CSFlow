@@ -4,6 +4,9 @@ We achieve state-of-the-art accuracy on KITTI-2015 flow benchmark.
 
 ![](results/compare.png)
 
+# News
+- **2022-4  [NEW:fire:]** CSFlow is accepted to 2022 33rd IEEE Intelligent Vehicles Symposium (IV).
+
 # Install
 ```
 python setup.py develop
