@@ -76,6 +76,17 @@ For more details, please check the code or refer our [paper](https://arxiv.org/p
 ├── work_dirs (local)       # For developers to save thier own codes and assets
 ```
 
+# Citation
+If you find our project helpful in your research, please cite with:
+```
+@article{shi2022csflow,
+  title={CSFlow: Learning optical flow via cross strip correlation for autonomous driving},
+  author={Shi, Hao and Zhou, Yifan and Yang, Kailun and Yin, Xiaoting and Wang, Kaiwei},
+  journal={arXiv preprint arXiv:2202.00909},
+  year={2022}
+}
+```
+
 # Devs
 Hao Shi，YiFan Zhou
 
